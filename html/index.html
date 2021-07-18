@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../style/style.css">
+    <!--  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="dist/lity.css" rel="stylesheet">
+
+    <title> Task SOFTR </title>
+</head>
+
+<body onload="loading()">
+    <div id="wrapper">
+        <div class="wrapper">
+            <div class="wrapper_title">
+                <h1>More sales. Less legwork.</h1>
+                <p>Get more leads, sort sales in one place and eliminate admin, because your day belongs to you.</p>
+            </div>
+            <div class="wrapper_carusel ">
+                <!-- Photo section, which changes when you click on the texts on the right. -->
+                <div class="img_container">
+                    <div id="img_carusel">
+                        <a href="../img/Insights_and_Reports.png" data-lity data-lity-desc="Photo of a flower">
+                            <img src="../img/Insights_and_Reports.png" alt=" img Insights and Reports"
+                                class="img_slider active">
+                        </a>
+                        <a href="../img/Manage_Leads_and_Deals.png" data-lity data-lity-target="Photo of a flower">
+                            <img src="../img/Manage_Leads_and_Deals.png" alt=" img Manage Leads and Deals"
+                                class="img_slider">
+                        </a>
+                        <a href="../img/Track_Communications.png" data-lity
+                            data-lity-target="../img/Track_Communications.jpg">
+                            <img src="../img/Track_Communications.png" alt=" img Track Communications"
+                                class="img_slider">
+                        </a>
+                        <a href="../img/Automate_and_Grow.png" data-lity data-lity-target="Photo of a flower">
+                            <img src="../img/Automate_and_Grow.png" alt=" img Automate and Grow" class="img_slider">
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- wrapper  button text img-->
+                <div class="wrapper_button_text_img">
+
+                    <!-- slider1  -->
+                    <div class="container" id="slider0" onmousedown="hendelClick()">
+                        <h3>Insights and Reports</h3>
+                        <p class="info">Insights and Reports: Deep dive into metrics customized for your
+                            business and measure goals.</p>
+                        <img src="../img/Insights_and_Reports.png" alt=" img Insights and Reports" width="100%">
+                    </div>
+                    <div class="bottom_div"></div>
+
+                    <!-- slider2  -->
+                    <div class="container" id="slider1" onmousedown="hendelClick()">
+                        <h3>Manage Leads and Deals</h3>
+                        <p class="info">Get more hot leads fed straight into your sales pipelines around the clock.</p>
+                        <img src="../img/Manage_Leads_and_Deals.png" alt=" img Manage Leads and Deals" width="100%">
+                    </div>
+                    <div class="bottom_div"></div>
+
+                    <!-- slider3  -->
+                    <div class="container" id="slider2" onmousedown="hendelClick()">
+                        <h3>Track Communications</h3>
+                        <p class="info">Track Communications: Track calls, emails and contact history exactly where you
+                            need.</p>
+                        <img src="../img/Track_Communications.png" alt=" img Track Communications" width="100%">
+                    </div>
+                    <div class="bottom_div"></div>
+
+                    <!-- slider4  -->
+                    <div class="container" id="slider3" onmousedown="hendelClick()">
+                        <h3>Automate and Grow</h3>
+                        <p class="info">Automate and Grow: Eliminate busywork by automating repetitive administrative
+                            tasks.</p>
+                        <img src="../img/Automate_and_Grow.png" alt=" img Automate and Grow" width="100%">
+                    </div>
+                    <div class="bottom_div"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../script/script.js"></script>
+    <script src="vendor/jquery.js"></script>
+    <script src="dist/lity.js"></script>
+
+</body>
+
+</html>
