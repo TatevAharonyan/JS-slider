@@ -47,7 +47,9 @@ function createImg(append, i, classIndividual) {
 function createA(append, i) {
     let aUniversal = document.createElement("a");
     aUniversal.href = imgSrcArr[i];
+    aUniversal.setAttribute("data-lity", "");
     createImg(aUniversal, i, "img_slider")
+    
     return append.appendChild(aUniversal)
 }
 
